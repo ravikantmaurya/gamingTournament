@@ -1,0 +1,7 @@
+{
+  "jwtPrivateKey": "unsecureKey",
+  "db": "mongodb://localhost/thenoobs",
+  "port": "3900",
+  "requiresAuth": true,
+  "otpExpire": 3600
+}

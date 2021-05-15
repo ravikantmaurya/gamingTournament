@@ -1,0 +1,38 @@
+{
+  "name": "thenoobsbackend",
+  "version": "1.0.0",
+  "description": "This Project is the backend of The Noobs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --watchAll --verbose"
+  },
+  "keywords": [],
+  "author": "Ravikant Maurya",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^1.29.4",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-async-errors": "^2.1.0",
+    "fawn": "^2.1.5",
+    "joi": "^13.4.0",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.10",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.2",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^22.2.2",
+    "supertest": "^3.0.0"
+  },
+  "directories": {
+    "test": "tests"
+  }
+}
